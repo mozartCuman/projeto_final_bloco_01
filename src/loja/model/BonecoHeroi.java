@@ -1,10 +1,10 @@
-package model;
+package loja.model;
 
-public class ModeloPrimarchs extends ModeloGeral{
+public class BonecoHeroi extends Loja{
 
 	private String prima;
 	
-	public ModeloPrimarchs(float preco,int produto, String produtoNome, String tipo, String prima) {
+	public BonecoHeroi(float preco,int produto, String produtoNome, String tipo, String prima) {
 		super( preco,produto, produtoNome, tipo);
 		
 		this.prima = prima;

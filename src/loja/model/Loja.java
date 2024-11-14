@@ -1,13 +1,13 @@
-package model;
+package loja.model;
 
-public abstract class ModeloGeral {
+public abstract class Loja {
 	
 	private int produto;
 	private String produtoNome;
 	private String  tipo;
 	private float preco;
 	
-	public ModeloGeral (float preco, int produto, String produtoNome,String tipo) {
+	public Loja (float preco, int produto, String produtoNome,String tipo) {
 	
 		this.produto = produto;
 		this.produtoNome = produtoNome;
